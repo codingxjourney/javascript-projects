@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.imgBox {
+    background-image: url('isamyakt.png');
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.whiteBox {
+    display: inline-block;
+    height: 157px;
+    width: 157px;
+    margin: 10px;
+    background-color: skyblue;
+    border: 2px yellow solid;
+    border-radius: 50%;
+}
+
+.hold {
+    border: 4px red solid;
+}
+
+.dashed {
+    background: blue;
+    border-style: dashed;
+}
+
+.hide {
+    display: none;
+}
